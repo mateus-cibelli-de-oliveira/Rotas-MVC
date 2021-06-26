@@ -1,0 +1,67 @@
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+#containerForm {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+.bordaColor{
+    background-color: rgb(155, 155, 155);
+    width: 300px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.formulario {
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+input[name="produto"]{
+    width: 174px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: solid rgb(89, 89, 89) 1px;
+}
+
+input[name="preco"]{
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: solid rgb(89, 89, 89) 1px;
+}
+input[name="categoria"]{
+    width: 171px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: solid rgb(89, 89, 89) 1px;
+}
+input[type="submit"]{
+    width: 60px;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid black 1px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+label{
+    font-size: 18px;
+    font-family: Arial;
+    margin: 5px;
+    padding-top: 10px;
+}
+hr {
+    margin-top: 80px;
+}
